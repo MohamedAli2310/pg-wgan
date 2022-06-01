@@ -6,6 +6,7 @@ The software is an implementation of pg-gan with Wasserstien loss. Below are ins
 ## Results
 
 - Files named Experimentx.out, where x is 1-4, are the raw results of the 4 experiments described in the paper, paper.pdf. 
+- Due to the large size of Experiment4.out, it is NOT included in this repo. Please download it from here https://drive.google.com/file/d/1f39YY65xBmQcXtoP6t6WBiBbSen6ZGz4/view?usp=sharing
 - To reproduce those results, run the following command with x replaced with the experiment number:
 `python3 graph.py Experimentx.out`
 - Experiment 4 is the best experiment; it's the one with gradient penality, no weight clipping, only 5 critic epochs per generator iteration, and 20,000 iterations in total (20,000 simulated annealing steps and thus 100,000 critic epochs in total)
