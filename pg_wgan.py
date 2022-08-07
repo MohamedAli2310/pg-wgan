@@ -28,7 +28,7 @@ GEN_ITER = 10
 BATCH_SIZE = 50
 NUM_BATCH = 100
 GP_WEIGHT = 10.0
-IGNORE = False # ignores checking for best loss in SA
+IGNORE = True # ignores checking for best loss in SA
 TEMP = 100.0
 print("NUM_ITER", NUM_ITER)
 print("BATCH_SIZE", BATCH_SIZE)
